@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    greeting = '{"greeting":"hello world"}'
+    greeting = '{"greeting":"this is my MSDS434 MVP"}'
     return greeting
 
 
