@@ -10,4 +10,4 @@ def test_index():
 
     r = client.get('/')
     assert r.status_code == 200
-    assert '{"greeting":"This is my MSDS434 MVP"}' in r.data.decode('utf-8')
+    assert '{"greeting":"this is my MSDS434 MVP"}' in r.data.decode('utf-8')
